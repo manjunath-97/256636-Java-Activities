@@ -40,6 +40,7 @@ public class InningsMain {
     System.out.println("Enter runs scored:");
     i1.setRuns(sc.nextInt());
     i1.displayInningsDetail();
+    sc.close();
   }
 
 }

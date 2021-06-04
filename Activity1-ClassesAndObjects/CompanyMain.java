@@ -9,7 +9,7 @@ class Company{
     return teamlead;
   }
   public String getEmployees() {
-    String[] arr=employees.split(",");  
+    String[] arr =employees.split(",");  
     //for(String a :arr) {
     //  return a;
     //}
@@ -39,5 +39,6 @@ public static void main(String[] args) {
   System.out.println("Name:"+c.getName());
   System.out.println("Employees:"+c.getEmployees());
   System.out.println("Teamlead:"+c.getTeamlead());
+  sc.close();
 }
 }
